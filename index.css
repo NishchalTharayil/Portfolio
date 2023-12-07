@@ -390,7 +390,7 @@ form input, form textarea{
  @media only screen and (max-width: 600px){
 
     #header{
-        background-image: url(../Assets/Phone-Background.jpg);
+        background-image: url(Assets/Phone-Background.jpg);
     }
 
     img{
