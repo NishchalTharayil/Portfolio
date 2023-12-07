@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../CSS Files/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+    <script src="https://kit.fontawesome.com/4f9281ecbc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-------------------------Header----------------------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="Logo" src="../Assets/Logo6.png" alt="Logo is not available at the moment">
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Java Full Stack Developer</p>
+                <h1>Hi, I'm <span>Nishchal </span>Tharayil <br />from Karnataka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------ABOUT SECTION--------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">   
+                    <img height="500px" src="../Assets/5042.JPG" alt="There supposed to be an image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <Span class="Color">Me</Span></h1>
+                    <p> Hello, I'm Nishchal T S from Karnataka. 
+                        I've successfully completed my undergraduate degree in Computer Science and Engineering from GMIT under the esteemed university VTU. 
+                        This portfolio is crafted to provide you with a comprehensive understanding of who I am. 
+                        I trust that this will address all the information you seek about me.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Java</span><br />Programing Language</li>
+                            <li><span>Web Development</span><br />Web app Development</li>
+                            <li><span>SQL</span><br />DataBase Management</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br />CSE from GMIT, Davanagere.</li>
+                            <li><span>2019</span><br />PCMB from Siddaganga PUC, Davanagere</li>
+                            <li><span>2017</span><br />Schooling from SVRS, Davanagere</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achievements">
+                        <ul>
+                            <li><span>May-2023</span><br />Project Implementation of the Year Award.</li>
+                            <li><span>Sep-2022</span><br />Certificate in DBMS from IIT Kharagpur </li>
+                            <li><span>Jan-2022</span><br />Certificate of Silver Medal in Python from IIT Madras</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------Services----------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span class="Color">My</span> Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p class="size">Crafting visually stunning and user-friendly websites to help your business thrive in the digital landscape – delivering innovative web design services for optimal online success</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-trophy"></i>
+                    <h2>Ui/UX Design</h2>
+                    <p class="size">Transform user experiences into captivating journeys with our UI/UX design services, where every detail is meticulously crafted for seamless interaction.</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-hurricane"></i>
+                    <h2>Innovative Ideas</h2>
+                    <p class="size">Explore a realm of innovation as we breathe life into imaginative concepts, shaping visionary ideas into reality with creativity and expertise</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------Portfolio-------------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"><span class="Color">My</span> Achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="../Assets/A1-Thumbnail.png" alt="Sorry for the inconvenience">
+                    <div class="layer">
+                        <h3>Python</h3>
+                        <p> Successfully certified by NPTEL after completing the Database Management
+                            System course conducted by IIT Kharagpur.</p>
+                        <a href="https://drive.google.com/file/d/19ZkPAk7QwyQaWA6b3v22NOA27_-PQ-B_/view?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../Assets/A2-Thumbnail.png" alt="Sorry for the inconvenience">
+                    <div class="layer">
+                        <h3>DBMS</h3>
+                        <p> Awarded a Silver Badge Certificate by NPTEL for the successful completion of 
+                            The Joy of Computing with Python course conducted by IIT Kharagpur..</p>
+                        <a href="https://drive.google.com/file/d/1_lkUcwFNMPUJDbinNSgm0T95a-7TWqLP/view?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="../Assets/A3-Thumbnail.png" alt="Sorry for the inconvenience">
+                    <div class="layer">
+                        <h3>Project</h3>
+                        <p> Honored with the distinguished team award for Best Project Implementation
+                            of the year 2022-2023, a testament to our exceptional achievement</p>
+                        <a href="https://drive.google.com/file/d/1Ahqe57PpKrzRsSFE2uSrJJHKl6AQ7e9H/view?usp=sharing"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1_dBlMClLe7-hO2YNSrHtrDZOUMALWDhg/view?usp=sharing" class="btn">See more</a>
+        </div>
+    </div>
+
+     <!-------------------------------------------Contact-------------------------------------->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>nishchaltharayil23@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>6362580595</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nishchalts/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/NishchalTharayil"><i class="fab fa-github-square"></i></a>
+                        <a href="https://twitter.com/Nishchal2001"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/nishchal_2001/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a download href="../Assets/Nishchal T S - B.E.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="tel" name="Phone" placeholder="Your Number" required>
+                        <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                        <span id="msg"></span>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright @ Nishchal, Desigined and Developed with <i class="fas fa-heart"></i> by Nishchal Tharayil</p>
+        </div>
+     </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzRgGv0mCVDE46rnFDqROT2gRzYfIk2G7vRa0UXHkIKAnNWSIiAxYKLrrGW8tRz4rRpPw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "I got you! I will contact you ASAP"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
